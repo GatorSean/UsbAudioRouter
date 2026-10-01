@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">USB Audio Router</string>
+    <string name="label_usb_input">USB Audio Input</string>
+    <string name="no_device">No USB audio device detected</string>
+    <string name="label_route_audio">Route to System Output</string>
+    <string name="route_description">Sends USB input to speakers, Bluetooth, or Android Auto</string>
+    <string name="status_inactive">Inactive</string>
+    <string name="android_auto_note">Audio routes through Android Auto when connected via USB or wireless projection</string>
+</resources>

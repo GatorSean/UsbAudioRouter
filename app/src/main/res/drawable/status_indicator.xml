@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Circular status dot.
+    android:state_activated="true"  → green  (USB device connected)
+    default                         → grey   (no device)
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_activated="true">
+        <shape android:shape="oval">
+            <solid android:color="#4CAF50" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#9E9E9E" />
+        </shape>
+    </item>
+</selector>

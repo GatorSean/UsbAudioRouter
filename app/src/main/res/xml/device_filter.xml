@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    USB device filter used for:
+    1. Intent filter in AndroidManifest — auto-launch the app when a matching device plugs in.
+    2. UsbManager.requestPermission() — request access to the device.
+
+    USB Audio Class devices report interface class 0x01 (AUDIO).
+    Leaving vendor/product IDs unset matches any audio-class device, including the
+    Saramonic SR-C2003 and similar USB-C audio adapters.
+
+    If you want to target ONLY the SR-C2003, add:
+        android:vendor-id="0xXXXX"
+        android:product-id="0xXXXX"
+    (find the IDs via `adb shell lsusb` or a USB info app on the phone).
+-->
+<resources>
+    <usb-device class="1" />
+</resources>
